@@ -171,9 +171,9 @@ bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
 # Hotkeys for laptop
-#bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
-#bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute
-#bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 2%+ unmute
+bindsym XF86AudioLowerVolume exec amixer -q set Master 2%- unmute
+bindsym XF86AudioMute exec amixer -q set Master toggle
 
 # Config
 focus_follows_mouse no
